@@ -2,6 +2,6 @@
 
 import { ReplApp } from '@impleta/repl-app';
 
-ReplApp.start();
+ReplApp.start('./ReplApp.init.js');
 
 export {};
