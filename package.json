@@ -34,6 +34,7 @@
     "typescript": "~4.7.0"
   },
   "dependencies": {
-    "@impleta/repl-app": "^1.1.0"
+    "@impleta/repl-app": "^1.2.1",
+    "chai": "^4.3.7"
   }
 }
