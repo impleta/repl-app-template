@@ -1,11 +1,12 @@
 {
   "name": "{{app_name}}",
   "version": "1.0.0",
-  "main": "./build/src/{{app_name}}.js",
+  "main": "./build/src/index.js",
   "bin": {
-    "{{app_name}}": "./build/index.js"
+    "{{app_name}}": "./build/src/index.js"
   },
   "private": true,
+  "preferGlobal": true,
   "files": [
     "build/src"
   ],
