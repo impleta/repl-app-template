@@ -6,3 +6,7 @@
  */
 
 export {assert} from 'chai';
+import { TestClass } from './TestClass';
+
+const TC = new TestClass();
+export {TestClass, TC};

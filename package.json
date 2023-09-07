@@ -17,7 +17,7 @@
     "clean": "gts clean",
     "compile": "tsc",
     "dev": "tsc-watch --onSuccess \"npm run postcompile\"",
-    "postcompile": "npm run addJsSuffix && npm run copyDts && npm run fixDts",
+    "postcompile": "npm run addJsSuffix && npm run copyDts && npm run fixDts && echo 'Ready...'",
     "addJsSuffix": "npx replace-in-file --configFile=replace-config.cjs --quiet",
     "copyDts": "npx copyfiles -f -e \"build/src/index.d.ts\"  \"build/src/**/*.d.ts\" @types",
     "fixDts": "npx replace-in-file --configFile=replace-config-dts.cjs --quiet",
