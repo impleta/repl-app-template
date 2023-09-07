@@ -27,15 +27,16 @@
     "posttest": "npm run lint"
   },
   "devDependencies": {
-    "@types/node": "^14.11.2",
+    "@types/chai": "^4.3.4",
+    "@types/node": "^20.1.2",
     "copyfiles": "^2.4.1",
     "gts": "^3.1.1",
     "replace-in-file": "^6.3.5",
     "tsc-watch": "^6.0.0",
-    "typescript": "~4.7.0"
+    "typescript": "~5.1.6"
   },
   "dependencies": {
-    "@impleta/repl-app": "^1.2.1",
+    "@impleta/repl-app": "^1.2.4",
     "chai": "^4.3.7"
   }
 }
