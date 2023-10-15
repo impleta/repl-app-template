@@ -1,9 +1,9 @@
 {
   "name": "{{app_name}}",
   "version": "1.0.0",
-  "main": "./build/src/index.js",
+  "main": "./build/src/launch.js",
   "bin": {
-    "{{app_name}}": "./build/src/index.js"
+    "{{app_name}}": "./build/src/launch.js"
   },
   "private": true,
   "preferGlobal": true,
@@ -36,7 +36,7 @@
     "typescript": "~5.1.6"
   },
   "dependencies": {
-    "@impleta/repl-app": "^1.2.4",
+    "@impleta/repl-app": "^2.0.0",
     "chai": "^4.3.7"
   }
 }
