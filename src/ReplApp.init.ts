@@ -5,7 +5,7 @@
  * any scripts executed by the repl.
  */
 
-export {assert} from 'chai';
+export {assert} from '@impleta/repl-app';
 import { TestClass } from './TestClass';
 
 const TC = new TestClass();
